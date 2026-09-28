@@ -1,0 +1,17 @@
+Student Name: TUYISHIMIRE Emmanuel
+
+Name list: ["Ama", "Kofi", "Yaw"]
+Trace 1 - target "Kofi":
+1. list is not empty, start with result = "Not found"
+2. look at "Ama": not equal to "Kofi", result stays "Not found"
+3. look at "Kofi": equals "Kofi", result becomes "Found"
+4. look at "Yaw": not equal to "Kofi", result stays "Found"
+Result: Found
+Trace 2 - target "Efua":
+1. list is not empty, start with result = "Not found"
+2. look at "Ama": not equal to "Efua", result stays "Not found"
+3. look at "Kofi": not equal to "Efua", result stays "Not found"
+4. look at "Yaw": not equal to "Efua", result stays "Not found"
+Result: Not found
+Empty list input: []
+Empty list result: Error: list is empty

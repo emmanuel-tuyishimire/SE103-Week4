@@ -1,0 +1,18 @@
+Student Name: TUYISHIMIRE Emmanuel
+GitHub Username: emmanuel-tuyishimire
+Authentication method I used: PAT
+
+Why I chose this method:
+ 
+I chose the Personal Access Token (PAT) method because it is beginner-friendly and straightforward to set up directly from my GitHub developer settings. It allows me to authenticate securely over HTTPS without needing to generate and manage complex SSH key pairs right away.
+
+One security habit I must follow with this method:
+ 
+I must treat my PAT like a real password by storing it securely in a password manager or secure note. I must never paste it into public chats, screenshots, or commit it into my repository files, and if it ever leaks, I must immediately revoke it on GitHub.
+
+Difference between a commit and a push:
+ 
+A commit is a local action that saves a permanent snapshot of my staged files into the Git history on my own computer. A push is a network action that uploads those saved local commits to a remote repository on GitHub. Until I push, my teammates cannot see the commits I have made on my local machine.
+
+My repository URL:
+https://github.com/emmanuel-tuyishimire/SE103-Week4

@@ -1,0 +1,17 @@
+Student Name: TUYISHIMIRE Emmanuel
+GitHub Username: emmanuel-tuyishimire
+Repository: SE103-Week3
+Repository URL: https://github.com/emmanuel-tuyishimire/SE103-Week4
+
+What a pull request asks teammates to do:
+ 
+A pull request asks teammates to review the code changes I made on my separate branch. It invites them to discuss the work, catch any potential bugs, and approve the integration of my branch into the shared project.
+
+Why branches and pull requests are used together: 
+
+They are used together because a branch provides the isolated workspace to safely write the code, and a pull request provides the necessary formal review process to safely merge that code.
+ 
+One thing that confused me in this project and how I solved it:
+ 
+One thing that confused me was when the automated checker failed to see my files even though I had pushed them perfectly to GitHub. I solved this by verifying my commits directly on the GitHub website to ensure my work was safe, and by keeping my focus on the actual engineering workflow rather than the autograder.
+All required files are on main: Yes

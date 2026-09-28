@@ -1,0 +1,28 @@
+Student Name: TUYISHIMIRE Emmanuel
+
+Problem: 
+Taking a direct public transport bus from the Remera bus park to Byumba without passing through Nyabugogo.
+Input: 
+Packed luggage and Mobile Money (MoMo) for the transport fare.
+Output: 
+Successfully arriving in Byumba with all luggage.
+Edge Case Handled: 
+The current bus at the stage is already completely full.
+
+Pseudocode:
+START
+    Arrive at Remera bus park
+    Locate the direct Byumba bus queue
+    IF the current bus is full THEN
+        Wait in the queue for the next available bus
+    ELSE
+        Load luggage into the bus storage
+        Pay the transport fare using MoMo
+        Board the bus and find a seat
+    END IF
+    Travel to Byumba
+    Alight at the Byumba stage and collect luggage
+END
+
+Why this is clear enough to follow: 
+This pseudocode is clear because it moves sequentially through the physical steps required to complete the journey, starting from the required inputs. It uses a clear IF/ELSE decision block to handle the very realistic edge case of a full bus, ensuring the person knows exactly what to do instead of getting stuck. The START and END tags firmly define the boundaries of the process.

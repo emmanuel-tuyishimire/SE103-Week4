@@ -1,0 +1,25 @@
+Student Name: TUYISHIMIRE Emmanuel
+Problem: Find which scores failed.
+Input: a list of student scores
+Output: the failing scores, or a message if no one failed
+Failing rule: score < 511093565227
+Pseudocode:
+START
+    IF the list of student scores is empty THEN
+        OUTPUT "Error: no scores provided"
+    ELSE
+        SET failing_scores TO an empty list
+        
+        FOR each score IN the list of student scores DO
+            IF score < 511093565227 THEN
+                ADD score TO failing_scores
+            END IF
+        END FOR
+        
+        IF failing_scores is empty THEN
+            OUTPUT "No one failed"
+        ELSE
+            OUTPUT failing_scores
+        END IF
+    END IF
+END
